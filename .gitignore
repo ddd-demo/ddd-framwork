@@ -1,0 +1,54 @@
+/target/
+.classpath
+.project
+.settings
+#Package Files#
+*.war
+*.ear
+
+# IDE support files
+/.classpath
+/.launch
+/.project
+/.settings
+/*.launch
+/*.tmproj
+/ivy*
+/eclipse
+
+
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+*.log
+*.log.*
+
+
+#Package Files#
+*.war
+*.ear
+
+## .gitignore for eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# project release file
+/*.war
+
+# plugin release file
+/*.zip
+/*.zip.sha1
