@@ -1,22 +1,21 @@
 /target/
-.classpath
-.project
-.settings
+#.classpath
+#.project
+#.settings
+
+# IDE support files
+#/.classpath
+#/.launch
+#/.project
+#/.settings
+#/*.launch
+#/*.tmproj
+#/ivy*
+#/eclipse
+
 #Package Files#
 *.war
 *.ear
-
-# IDE support files
-/.classpath
-/.launch
-/.project
-/.settings
-/*.launch
-/*.tmproj
-/ivy*
-/eclipse
-
-
 
 # logs
 /stacktrace.log
@@ -41,10 +40,10 @@ tmp/**/*
 *.bak
 *.swp
 *~.nib
-local.properties
-.classpath
-.settings/
-.loadpath
+#local.properties
+#.classpath
+#.settings/
+#.loadpath
 
 # project release file
 /*.war
@@ -52,3 +51,4 @@ local.properties
 # plugin release file
 /*.zip
 /*.zip.sha1
+*.rar
